@@ -7,6 +7,7 @@ export const Body = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.88;
+  overflow-x: hidden;
 `;
 export const Bar = styled.div`
   display: flex;
@@ -91,6 +92,7 @@ export const Topics = styled.h3`
 
 export const Description = styled.p`
   font-size: 15px;
+  width: fit-content;
   text-align: center;
   text-align: justify;
   @media screen and (max-width: 540px) {
