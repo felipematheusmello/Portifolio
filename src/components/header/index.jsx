@@ -7,9 +7,11 @@ const Header = () => {
         <Container>
 
             <Title>Felipe</Title>
-            <StyledLink to='/' color={pathname === '/' ? '#5398BE' : '#FFFF'} >SOBRE</StyledLink>
-            <StyledLink to='/tecnologies' color={pathname === '/tecnologies' ? '#5398BE' : '#FFFF'}>TECNOLOGIAS</StyledLink>
-            <StyledLink to='/projects' color={pathname === '/projects' ? '#5398BE' : '#FFFF'}>PROJETOS</StyledLink>
+            <div>
+                <StyledLink to='/' color={pathname === '/' ? '#5398BE' : '#FFFF'} hover={pathname === '/' ? '#FFFF' : '#CCCC'}  >SOBRE</StyledLink>
+                <StyledLink to='/tecnologies' color={pathname === '/tecnologies' ? '#5398BE' : '#FFFF'} hover={pathname === '/tecnologies' ? '#FFFF' : '#CCCC'}>TECNOLOGIAS</StyledLink>
+                <StyledLink to='/projects' color={pathname === '/projects' ? '#5398BE' : '#FFFF'} hover={pathname === '/projects' ? '#FFFF' : '#CCCC'}>PROJETOS</StyledLink>
+            </div>
         </Container>
     )
 }
