@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import profile from "./img/profile.jpeg";
 export const Body = styled.div`
   width: 100vw;
   height: 100vh;
@@ -42,7 +42,6 @@ export const Box = styled.div`
   display: flex;
   justify-content: space-between;
   flex-flow: wrap row;
-  align-items: center;
   width: 100%;
   height: fit-content;
   background-color: #ffff;
@@ -52,6 +51,9 @@ export const Box = styled.div`
 export const Foto = styled.div`
   border-radius: 100px;
   background-color: #cccc;
+  background-image: url(${profile});
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 200px;
   margin: 0 30px;
   height: 200px;
@@ -70,7 +72,8 @@ export const DescriptionTitle = styled.h3`
 `;
 
 export const DescriptionContainer = styled.div`
-  width: 40%;
+  margin: 0 35px;
+  width: 35%;
 `;
 export const Topics = styled.h3`
   font-size: 30px;
@@ -83,4 +86,9 @@ export const Description = styled.p`
   font-size: 15px;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  text-align: justify;
+`;
+
+export const TopicContainer = styled.div`
+  margin-top: 10px;
 `;
