@@ -46,6 +46,9 @@ export const Box = styled.div`
   height: fit-content;
   background-color: #ffff;
   padding: 20px 0;
+  @media screen and (max-width: 540px) {
+    flex-flow: column row;
+  }
 `;
 
 export const Foto = styled.div`
@@ -74,10 +77,14 @@ export const DescriptionTitle = styled.h3`
 export const DescriptionContainer = styled.div`
   margin: 0 35px;
   width: 35%;
+  @media screen and (max-width: 540px) {
+    display: none;
+  }
 `;
 export const Topics = styled.h3`
   font-size: 30px;
   color: black;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   text-align: center;
 `;
@@ -85,10 +92,24 @@ export const Topics = styled.h3`
 export const Description = styled.p`
   font-size: 15px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   text-align: justify;
+  @media screen and (max-width: 540px) {
+    font-size: 12px;
+  }
 `;
 
 export const TopicContainer = styled.div`
   margin-top: 10px;
+`;
+
+export const Mobile = styled.div`
+  display: none;
+  @media screen and (max-width: 540px) {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
 `;
