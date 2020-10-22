@@ -1,6 +1,7 @@
 import * as React from "react";
 import Profile from "../pages/profile";
 import Tecnologies from "../pages/tecnologies";
+import Projects from "../pages/projects";
 import { Switch, Route } from "react-router-dom";
 const Routes = () => {
   return (
@@ -11,7 +12,9 @@ const Routes = () => {
       <Route path="/tecnologies">
         <Tecnologies />
       </Route>
-      <Route path="/projects"></Route>
+      <Route path="/projects">
+        <Projects />
+      </Route>
     </Switch>
   );
 };

@@ -20,6 +20,9 @@ export const LanguagesTitle = styled.h3`
   color: #000;
   margin: 0 5px;
   letter-spacing: 2px;
+  @media screen and (max-width: 540px) {
+    display: none;
+  }
 `;
 export const Javascript = styled(SiJavascript)`
   font-size: 25px;
@@ -94,4 +97,15 @@ export const LanguageContainer = styled.div`
   display: flex;
   flex-flow: row;
   margin: 10px;
+`;
+
+export const Mobile = styled(LanguagesTitle)`
+  display: none;
+  @media screen and (max-width: 540px) {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 5px;
+    letter-spacing: 2px;
+  }
 `;

@@ -16,6 +16,7 @@ import {
   ReactIcon,
   TypescriptIcon,
   NodeJs,
+  Mobile,
 } from "./tecnologies.style";
 const Tecnologies = () => {
   return (
@@ -27,13 +28,15 @@ const Tecnologies = () => {
       </Bar>
       <BoxSkills>
         <SkillsPhoto />
-
         <LanguagesContainer>
           <LanguageContainer>
             <LanguagesTitle>
               <Javascript />
               JavaScript
             </LanguagesTitle>
+            <Mobile>
+              <Javascript />
+            </Mobile>
             <FullHeart />
             <FullHeart />
             <FullHeart />
@@ -51,6 +54,9 @@ const Tecnologies = () => {
               <Html />
               HTML
             </LanguagesTitle>
+            <Mobile>
+              <Html />
+            </Mobile>
             <FullHeart />
             <FullHeart />
             <FullHeart />
@@ -68,6 +74,9 @@ const Tecnologies = () => {
               <Css />
               CSS
             </LanguagesTitle>
+            <Mobile>
+              <Css />
+            </Mobile>
             <FullHeart />
             <FullHeart />
             <FullHeart />
@@ -85,6 +94,9 @@ const Tecnologies = () => {
               <ReactIcon />
               React
             </LanguagesTitle>
+            <Mobile>
+              <ReactIcon />
+            </Mobile>
             <FullHeart />
             <FullHeart />
             <FullHeart />
@@ -102,6 +114,9 @@ const Tecnologies = () => {
               <TypescriptIcon />
               TypeScript
             </LanguagesTitle>
+            <Mobile>
+              <TypescriptIcon />
+            </Mobile>
             <FullHeart />
             <FullHeart />
             <FullHeart />
@@ -119,6 +134,9 @@ const Tecnologies = () => {
               <NodeJs />
               Node.js
             </LanguagesTitle>
+            <Mobile>
+              <NodeJs />
+            </Mobile>
             <FullHeart />
             <FullHeart />
             <FullHeart />
