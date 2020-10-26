@@ -43,7 +43,7 @@ export const Box = styled.div`
   display: flex;
   justify-content: space-between;
   flex-flow: wrap row;
-  width: 100%;
+  width: 0.1;
   height: fit-content;
   background-color: #ffff;
   padding: 20px 0;
@@ -77,7 +77,7 @@ export const DescriptionTitle = styled.h3`
 
 export const DescriptionContainer = styled.div`
   margin: 0 35px;
-  width: 35%;
+  width: 0.35;
   @media screen and (max-width: 540px) {
     display: none;
   }
