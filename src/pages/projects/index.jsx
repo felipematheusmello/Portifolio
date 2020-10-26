@@ -21,6 +21,7 @@ const Projects = () => {
           <ProjectContainer>
             <a
               href="https://bookbook-omega.vercel.app/"
+              target="_blank"
               style={{ textDecoration: "none" }}
             >
               <ProjectTitle>BookBook</ProjectTitle>
@@ -32,7 +33,8 @@ const Projects = () => {
         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.99 }}>
           <ProjectContainer>
             <a
-              href="https://bookbook-omega.vercel.app/"
+              href="https://reciclaton.vercel.app/"
+              target="_blank"
               style={{ textDecoration: "none" }}
             >
               <ProjectTitle>Reciclaton</ProjectTitle>
@@ -45,6 +47,7 @@ const Projects = () => {
           <ProjectContainer>
             <a
               href="https://collections.felipe-matheus.vercel.app/"
+              target="_blank"
               style={{ textDecoration: "none" }}
             >
               <ProjectTitle>Collections</ProjectTitle>
@@ -58,4 +61,3 @@ const Projects = () => {
 };
 
 export default Projects;
-//https://collections.felipe-matheus.vercel.app/
